@@ -3,7 +3,7 @@ import requests
 
 app = Flask(__name__)
 
-LLM_API_URL = "http://host.containers.internal:42701/v1/chat/completions"
+LLM_API_URL = "http://host.containers.internal:38723/v1/chat/completions"
 
 def get_llm_response(user_input):
     payload = {
